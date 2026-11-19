@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Preflight.Core/Preflight.Core.csproj" />
+    <Project Path="src/Preflight.Explain/Preflight.Explain.csproj" />
+    <Project Path="src/Preflight.Runner/Preflight.Runner.csproj" />
+    <Project Path="src/Preflight.Guard/Preflight.Guard.csproj" />
+    <Project Path="src/Preflight.Cloud/Preflight.Cloud.csproj" />
+    <Project Path="src/Preflight.Store/Preflight.Store.csproj" />
+    <Project Path="src/Preflight.Watch/Preflight.Watch.csproj" />
+    <Project Path="src/Preflight.Cli/Preflight.Cli.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Preflight.Core.Tests/Preflight.Core.Tests.csproj" />
+  </Folder>
+</Solution>

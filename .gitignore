@@ -1,0 +1,49 @@
+# Build output
+bin/
+obj/
+publish/
+artifacts/
+*.nupkg
+
+# Test results / coverage
+TestResults/
+coverage/
+*.trx
+*.coverage
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.rsuser
+
+# Claude Code local files
+.claude/
+CLAUDE.local.md
+
+# Secrets / local config (never commit)
+.env
+.env.*
+*.pfx
+*.snk
+appsettings.Local.json
+secrets.json
+
+# Local runtime data (decision log, temp work folders)
+*.db
+*.sqlite
+*.sqlite3
+preflight-work/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Planning documents (kept local)
+IMPLEMENTATION_PLAN.md
+alternatives/
+
+# Private application notes
+APPLICATION.md
