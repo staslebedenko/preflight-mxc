@@ -1,0 +1,16 @@
+{
+  "subject": { "displayName": "photo-organizer.ps1", "sha256": "0000000000000000000000000000000000000000000000000000000000000005", "kind": "Script", "source": "fixture" },
+  "durationMs": 2000,
+  "exitCode": 0,
+  "workingFolder": "C:\\Users\\demo\\AppData\\Local\\Temp\\preflight\\work",
+  "events": [
+    { "id": "1", "timestamp": "2026-01-10T10:00:01Z", "kind": "FileEnumerate", "target": "C:\\Users\\demo\\Documents", "granted": false, "detail": null },
+    { "id": "2", "timestamp": "2026-01-10T10:00:02Z", "kind": "FileEnumerate", "target": "C:\\Users\\demo\\Pictures", "granted": false, "detail": null },
+    { "id": "3", "timestamp": "2026-01-10T10:00:03Z", "kind": "FileEnumerate", "target": "C:\\Users\\demo\\Desktop", "granted": false, "detail": null },
+    { "id": "4", "timestamp": "2026-01-10T10:00:04Z", "kind": "FileEnumerate", "target": "C:\\Users\\demo\\Downloads", "granted": false, "detail": null },
+    { "id": "5", "timestamp": "2026-01-10T10:00:05Z", "kind": "FileEnumerate", "target": "C:\\Users\\demo\\Music", "granted": false, "detail": null },
+    { "id": "6", "timestamp": "2026-01-10T10:00:06Z", "kind": "FileEnumerate", "target": "C:\\Users\\demo\\Videos", "granted": false, "detail": null },
+    { "id": "7", "timestamp": "2026-01-10T10:00:07Z", "kind": "FileEnumerate", "target": "C:\\Users\\demo\\OneDrive", "granted": false, "detail": null },
+    { "id": "8", "timestamp": "2026-01-10T10:00:08Z", "kind": "FileWrite", "target": "C:\\Users\\demo\\AppData\\Local\\Temp\\preflight\\work\\crawl.txt", "granted": true, "detail": null }
+  ]
+}

@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Preflight.Core\Preflight.Core.csproj" />
+  </ItemGroup>
+</Project>

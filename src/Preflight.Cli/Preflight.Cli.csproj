@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>preflight</AssemblyName>
+    <RootNamespace>Preflight.Cli</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Preflight.Core\Preflight.Core.csproj" />
+    <ProjectReference Include="..\Preflight.Explain\Preflight.Explain.csproj" />
+  </ItemGroup>
+</Project>

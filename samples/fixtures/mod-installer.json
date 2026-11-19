@@ -1,0 +1,11 @@
+{
+  "subject": { "displayName": "texture-pack-installer.ps1", "sha256": "0000000000000000000000000000000000000000000000000000000000000003", "kind": "Script", "source": "fixture" },
+  "durationMs": 2400,
+  "exitCode": 0,
+  "workingFolder": "C:\\Users\\demo\\AppData\\Local\\Temp\\preflight\\work",
+  "events": [
+    { "id": "1", "timestamp": "2026-01-10T10:00:01Z", "kind": "FileWrite", "target": "C:\\Users\\demo\\AppData\\Local\\Temp\\preflight\\work\\mod.tmp", "granted": true, "detail": null },
+    { "id": "2", "timestamp": "2026-01-10T10:00:02Z", "kind": "FileWrite", "target": "C:\\Users\\demo\\Documents\\My Games\\SomeGame\\Mods\\texture.pak", "granted": false, "detail": null },
+    { "id": "3", "timestamp": "2026-01-10T10:00:03Z", "kind": "NetworkConnect", "target": "updates.modhost.invalid:443", "granted": false, "detail": null }
+  ]
+}

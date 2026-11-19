@@ -1,0 +1,13 @@
+{
+  "subject": { "displayName": "free-fps-booster.ps1", "sha256": "0000000000000000000000000000000000000000000000000000000000000002", "kind": "Script", "source": "fixture" },
+  "durationMs": 1800,
+  "exitCode": 0,
+  "workingFolder": "C:\\Users\\demo\\AppData\\Local\\Temp\\preflight\\work",
+  "events": [
+    { "id": "1", "timestamp": "2026-01-10T10:00:01Z", "kind": "FileRead", "target": "C:\\Users\\demo\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data", "granted": false, "detail": null },
+    { "id": "2", "timestamp": "2026-01-10T10:00:02Z", "kind": "RegistryWrite", "target": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\FpsBooster", "granted": false, "detail": null },
+    { "id": "3", "timestamp": "2026-01-10T10:00:03Z", "kind": "NetworkConnect", "target": "telemetry.fps-boost.invalid:443", "granted": false, "detail": null },
+    { "id": "4", "timestamp": "2026-01-10T10:00:04Z", "kind": "NetworkConnect", "target": "cdn.fps-boost.invalid:443", "granted": false, "detail": null },
+    { "id": "5", "timestamp": "2026-01-10T10:00:05Z", "kind": "FileWrite", "target": "C:\\Users\\demo\\AppData\\Local\\Temp\\preflight\\work\\boost.log", "granted": true, "detail": null }
+  ]
+}

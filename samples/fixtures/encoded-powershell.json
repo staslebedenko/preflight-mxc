@@ -1,0 +1,10 @@
+{
+  "subject": { "displayName": "setup-helper.bat", "sha256": "0000000000000000000000000000000000000000000000000000000000000004", "kind": "Script", "source": "fixture" },
+  "durationMs": 1500,
+  "exitCode": 0,
+  "workingFolder": "C:\\Users\\demo\\AppData\\Local\\Temp\\preflight\\work",
+  "events": [
+    { "id": "1", "timestamp": "2026-01-10T10:00:01Z", "kind": "ProcessStart", "target": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "granted": true, "detail": "powershell -enc SQBFAFgAIAAnAGgAYQByAG0AbABlAHMAcwAnAA==" },
+    { "id": "2", "timestamp": "2026-01-10T10:00:02Z", "kind": "FileWrite", "target": "C:\\Users\\demo\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\updater.lnk", "granted": false, "detail": null }
+  ]
+}

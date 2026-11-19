@@ -1,0 +1,10 @@
+{
+  "subject": { "displayName": "clean.ps1", "sha256": "0000000000000000000000000000000000000000000000000000000000000001", "kind": "Script", "source": "fixture" },
+  "durationMs": 1800,
+  "exitCode": 0,
+  "workingFolder": "C:\\Users\\demo\\AppData\\Local\\Temp\\preflight\\work",
+  "events": [
+    { "id": "1", "timestamp": "2026-01-10T10:00:01Z", "kind": "FileWrite", "target": "C:\\Users\\demo\\AppData\\Local\\Temp\\preflight\\work\\output.txt", "granted": true, "detail": null },
+    { "id": "2", "timestamp": "2026-01-10T10:00:02Z", "kind": "FileRead", "target": "C:\\Users\\demo\\AppData\\Local\\Temp\\preflight\\work\\input.txt", "granted": true, "detail": null }
+  ]
+}

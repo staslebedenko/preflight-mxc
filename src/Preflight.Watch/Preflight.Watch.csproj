@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Placeholder project for a later phase (see IMPLEMENTATION_PLAN.md). -->
+  <ItemGroup>
+    <ProjectReference Include="..\Preflight.Core\Preflight.Core.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+namespace Preflight.Store;
+
+/// <summary>Placeholder; implemented in a later phase.</summary>
+internal static class AssemblyMarker { }

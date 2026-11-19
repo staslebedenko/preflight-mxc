@@ -1,0 +1,10 @@
+{
+  "subject": { "displayName": "irm https://example.com/install.ps1 | iex", "sha256": "0000000000000000000000000000000000000000000000000000000000000006", "kind": "Command", "source": "fixture" },
+  "durationMs": 1700,
+  "exitCode": 0,
+  "workingFolder": "C:\\Users\\demo\\AppData\\Local\\Temp\\preflight\\work",
+  "events": [
+    { "id": "1", "timestamp": "2026-01-10T10:00:01Z", "kind": "ProcessStart", "target": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "granted": true, "detail": "powershell -Command \"irm https://example.com/install.ps1 | iex\"" },
+    { "id": "2", "timestamp": "2026-01-10T10:00:02Z", "kind": "NetworkConnect", "target": "example.com:443", "granted": false, "detail": null }
+  ]
+}
